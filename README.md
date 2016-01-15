@@ -5,8 +5,9 @@ Repository for practicing doing pull requests. Introduce yourself via a `GITHUB_
 ```json
 // _data/spring_2016/floswald.json
 {
-  "emoji": "neckbeard",
-  "introduction": "Shaving on Monday Morning, too busy coding otherwise."
+  "emoji": "radio",
+  "introduction": "BBC6music is my favourite radio station"
+  "computing": "dynamic models of housing, location and labor"
 }
 ```
 
