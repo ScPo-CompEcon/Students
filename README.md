@@ -11,6 +11,10 @@ Repository for practicing doing pull requests. Introduce yourself via a `GITHUB_
 }
 ```
 
-Using the format above, replace with your own `emoji` (choose from [this list](http://www.emoji-cheat-sheet.com/)) and `introduction`.
+Using the format above, replace with your own 
+
+* `emoji` (choose from [this list](http://www.emoji-cheat-sheet.com/)), 
+* `introduction`, which should be something very brief about yourself, and 
+* `computing`, where you should state what kinds of computational problems you are (or think you will be) solving.
 
 ***Teachers: see the [meta](meta.md) file for usage instructions.***
