@@ -4,10 +4,7 @@ Repository for practicing doing pull requests. Introduce yourself via a `GITHUB_
 
 ```json
 // this is a comment
-// you should go to directory _data/spring_2016/
-// and save a file called YOUR_GITHUB_USERNAME.json
-// with the following content:
-// (this is on my computer: _data/spring_2016/floswald.json)
+// below is the content of file _data/spring_2016/floswald.json on my computer
 {
   "emoji": "radio",
   "introduction": "BBC6music is my favourite radio station",
