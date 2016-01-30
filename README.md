@@ -1,9 +1,13 @@
 # Student directory [![Build Status](https://travis-ci.org/ScPo-CompEcon/students.svg?branch=gh-pages)](https://travis-ci.org/ScPo-CompEcon/students)
 
-Repository for practicing doing pull requests. Introduce yourself via a `GITHUB_USERNAME.json` file under the appropriate [`_data/TERM_YEAR/`](_data/) directory, and submit via pull request. Here's an example:
+Repository for practicing doing pull requests. Introduce yourself via a `GITHUB_USERNAME.json` file under the appropriate directory [`_data/spring2016/`](_data/) directory, and submit via pull request. Here's an example:
 
 ```json
-// _data/spring_2016/floswald.json
+// this is a comment
+// you should go to directory _data/spring_2016/
+// and save a file called YOUR_GITHUB_USERNAME.json
+// with the following content:
+// (this is on my computer: _data/spring_2016/floswald.json)
 {
   "emoji": "radio",
   "introduction": "BBC6music is my favourite radio station",
