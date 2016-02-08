@@ -4,6 +4,7 @@ Repository for practicing doing pull requests. Introduce yourself via a `GITHUB_
 
 ```json
 // this is a comment
+// (you should remove this!!!!)
 // below is the content of file _data/spring_2016/floswald.json on my computer
 {
   "emoji": "radio",
