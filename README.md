@@ -9,7 +9,7 @@ Repository for practicing doing pull requests.
 1. add a `JSON` file as described below
 1. commit to your local repository
 1. push to your repo on github
-1. submit a pull request on *this* repository (i.e. the original one, owned by the ScPo-CompEcon organisation, at [https://github.com/ScPo-CompEcon/students](https://github.com/ScPo-CompEcon/students))
+1. submit a pull request to *this* repository (i.e. the original one, owned by the ScPo-CompEcon organisation, at [https://github.com/ScPo-CompEcon/students](https://github.com/ScPo-CompEcon/students)). You do this by clicking on the "New pull request" button on *your* fork of that repo, after you pushed your changes.
 
 ## Adding a `JSON` file to introduce yourself
 
