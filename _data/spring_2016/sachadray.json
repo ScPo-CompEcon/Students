@@ -1,8 +1,5 @@
-
-// this is a comment
-// below is the content of file _data/spring_2016/floswald.json on my computer
 {
   "emoji": "bowtie",
-  "introduction": "''notre héritage n'est précédé d'aucun testament'' RC",
+  "introduction": "notre héritage n'est précédé d'aucun testament",
   "computing": "still exploring"
 }
