@@ -11,6 +11,7 @@
 1. Change the `current_term` in the [`_config.yml`](_config.yml) to match the new directory.
 1. Update the link in the repository description to be `http://ORG.github.io/students`.
 1. Ensure that the site appears.
+1. If you do a test with yourself, i.e. you place yourself in `_data/SOME_TERM/youruser.json` and push, be sure to then delete yourself again with a follow-up commit. If not, there will be your file in the fork of the students, your file will pass the tests, and there is no way of catching whether they placed the file in the right place.
 
 ## In-class
 
