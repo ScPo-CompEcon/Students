@@ -1,0 +1,5 @@
+{
+  "emoji": "speak_no_evil",
+  "introduction": "I am big fan of coconuts",
+  "computing": "dynamic models of labor and consumption"
+}
