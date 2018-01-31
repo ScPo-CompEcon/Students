@@ -16,8 +16,8 @@
 1. Make sure you have your github username handy
 1. add a `JSON` file that describes yourself:
 	1. With your editor, navigate to where you cloned this. Example: `cd ~`.
-	1. Navigate to the [`_data/spring2017/`](_data/) directory
-	1. Open your text editor, create a file like the one below (you are looking at `floswald.json`), and save as `YOUR_GITHUB_USERNAME.json` in the current directory:
+	1. Navigate to the [`_data/spring_2018/`](_data/) directory
+	1. Open your text editor, create a file like the one below (you are looking at `floswald.json`), and save as `YOUR_GITHUB_USERNAME.json` in that directory `_data/spring_2018/`:
 
 		```json
 		{
@@ -32,15 +32,19 @@
 		* `introduction`, which should be something very brief about yourself, and 
 		* `computing`, where you should state what kinds of computational problems you are (or think you will be) solving.
 
+		**NOTICE**: take care to write this file *exactly* as it is shown above. One missing comma, and this will not work. 
+
 	1. save this file
 1. Go back to your GUI, or type `git status` on the command line.
 1. In the GUI, select `YOUR_GITHUB_USERNAME.json` to be added to the next commit, or type `git add YOUR_GITHUB_USERNAME.json` on the command line.
 1. write a summary of the change. Like: "added my username". command line `git commit -m 'added my username'`
 1. push your commit to your remote at github: `git push` (click push in your gui)
 1. Go to fork on github at `https://github.com/YOUR_USER_NAME/students`
-1. Click on create new pull request.
+1. Click on `pull request`. see [!picture](PR.png)
+1. Click on *create pull request* several times. 
 1. Done.
 1. You can go and look at your PR by clicking on the link that appears where you clicked.
+1. You will be able to push corrections onto the same pull request, by just pushing further commits to this branch. 
 
 
 ***Teachers: see the [meta](meta.md) file for usage instructions.***
