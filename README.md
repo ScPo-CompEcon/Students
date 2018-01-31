@@ -40,7 +40,7 @@
 1. write a summary of the change. Like: "added my username". command line `git commit -m 'added my username'`
 1. push your commit to your remote at github: `git push` (click push in your gui)
 1. Go to fork on github at `https://github.com/YOUR_USER_NAME/students`
-1. Click on `pull request`. see [!picture](PR.png)
+1. Click on `pull request`. see ![picture](PR.png)
 1. Click on *create pull request* several times. 
 1. Done.
 1. You can go and look at your PR by clicking on the link that appears where you clicked.
