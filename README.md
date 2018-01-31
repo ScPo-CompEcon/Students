@@ -4,14 +4,18 @@
 
 ## How to do this homework
 
-1. Download [https://desktop.github.com](https://desktop.github.com) for a simple interface to github. Open, **and login** with your github username. (alternatives are SourceTree and, of course, the command line)
-1. Fork this repository (click on **fork** top right of this page; this makes a copy of this repo on your github account [*somewhere in the cloud*])
+1. You can download a GUI to work with git for this homework. I don't recommend Github Desktop, because it does not allow you to easily *stash* changes, which is quite important. Good alternatives are GitKraken, SourceTree and GitTower. You are perfectly fine **without any GUI** as well (i.e. on the command line)
+1. Fork this repository (click on **fork** top right of this page; this makes a copy of this repo on your github account [that is, *somewhere in the cloud*])
 1. Go to your fork (it takes you there anyway), and clone your fork to your computer (click on **clone or download**)
-	1. If you installed Github Desktop (recommended), click on "Open in Desktop"
-	1. GitHub Desktop will ask you where you want the repo cloned to. Let's call that location on your computer `x`.
+	1. Copy the shown URL
+	1. In your GUI, find out how to *clone* a new repo. Alteratively, on your command line, do 
+	```
+	git clone git@github.com:your_user_name/students.git  # insert your user name
+	```
+	this will clone the repo to your present working directory on your computer. Let's assume this is your home directory, or `~`.
 1. Make sure you have your github username handy
 1. add a `JSON` file that describes yourself:
-	1. Navigate to location `x`.
+	1. With your editor, navigate to where you cloned this. Example: `cd ~`.
 	1. Navigate to the [`_data/spring2017/`](_data/) directory
 	1. Open your text editor, create a file like the one below (you are looking at `floswald.json`), and save as `YOUR_GITHUB_USERNAME.json` in the current directory:
 
@@ -29,11 +33,12 @@
 		* `computing`, where you should state what kinds of computational problems you are (or think you will be) solving.
 
 	1. save this file
-1. Back in Github Desktop: You see it says *1 uncommitted change*. It tells you that the state of the repo changed. good.
-1. write a summary of the change. Like: "added my username"
-1. click on *commit to gh-pages*. `gh-pages` is the default branch on this repo, and that's where we want to add this new file. 
-1. Top right in Github Desktop, click on *Pull Request*.
-1. Additionally add more comments. Then click *Send Pull Request*.
+1. Go back to your GUI, or type `git status` on the command line.
+1. In the GUI, select `YOUR_GITHUB_USERNAME.json` to be added to the next commit, or type `git add YOUR_GITHUB_USERNAME.json` on the command line.
+1. write a summary of the change. Like: "added my username". command line `git commit -m 'added my username'`
+1. push your commit to your remote at github: `git push` (click push in your gui)
+1. Go to fork on github at `https://github.com/YOUR_USER_NAME/students`
+1. Click on create new pull request.
 1. Done.
 1. You can go and look at your PR by clicking on the link that appears where you clicked.
 
