@@ -1,4 +1,4 @@
-# Student directory [![Build Status](https://travis-ci.org/ScPo-CompEcon/students.svg?branch=gh-pages)](https://travis-ci.org/ScPo-CompEcon/students)
+# Student directory [![Build Status](https://travis-ci.org/ScPo-CompEcon/Students.svg?branch=master)](https://travis-ci.org/ScPo-CompEcon/Students)
 
 # Homework Number 1: Pull requests
 
