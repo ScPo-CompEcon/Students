@@ -1,0 +1,5 @@
+{
+  "emoji": "ghost",
+  "introduction": "I don't like horror movies",
+  "computing": "dynamic models of labor"
+}
