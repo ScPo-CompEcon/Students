@@ -10,7 +10,7 @@
 	1. Copy the shown URL
 	1. In your GUI, find out how to *clone* a new repo. Alteratively, on your command line, do 
 	```
-	git clone git@github.com:your_user_name/students.git  # insert your user name
+	git clone git@github.com:your_user_name/Students.git  # insert your user name
 	```
 	this will clone the repo to your present working directory on your computer. Let's assume this is your home directory, or `~`.
 1. Make sure you have your github username handy
@@ -39,7 +39,7 @@
 1. In the GUI, select `YOUR_GITHUB_USERNAME.json` to be added to the next commit, or type `git add YOUR_GITHUB_USERNAME.json` on the command line.
 1. write a summary of the change. Like: "added my username". command line `git commit -m 'added my username'`
 1. push your commit to your remote at github: `git push` (click push in your gui)
-1. Go to fork on github at `https://github.com/YOUR_USER_NAME/students`
+1. Go to fork on github at `https://github.com/YOUR_USER_NAME/Students`
 1. Click on `pull request`. see ![picture](PR.png)
 1. Click on *create pull request* several times. 
 1. Done.
