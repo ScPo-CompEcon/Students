@@ -41,10 +41,12 @@
 1. push your commit to your remote at github: `git push` (click push in your gui)
 1. Go to fork on github at `https://github.com/YOUR_USER_NAME/students`
 1. Click on `pull request`. see ![picture](PR.png)
-1. Click on *create pull request* several times. 
+1. Click on *create pull request* (several times). 
 1. Done.
-1. You can go and look at your PR by clicking on the link that appears where you clicked.
-1. You will be able to push corrections onto the same pull request, by just pushing further commits to this branch. 
+1. Now see if what you did checks out as correct on travis: go back to the original repo at [https://github.com/ScPo-CompEcon/Students](https://github.com/ScPo-CompEcon/Students)
+1. Click on the (green?) badge next to the title in the readme. Find your build in the list of pull requests. see if it completes without error. 
+1. If not: **fix the error!**
+1. You will be able to push corrections onto the same pull request, by just pushing further commits to the branch you pushed to before. Each new push will trigger another build on travis.
 
 
 ***Teachers: see the [meta](meta.md) file for usage instructions.***
