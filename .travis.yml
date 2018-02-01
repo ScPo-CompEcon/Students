@@ -10,3 +10,5 @@ script:
 branches:
   only:
     - /.*/
+notifications:
+  email: false    
