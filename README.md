@@ -16,7 +16,7 @@
 1. Make sure you have your github username handy
 1. add a `JSON` file that describes yourself:
 	1. With your editor, navigate to where you cloned this. Example: `cd ~`.
-	1. Navigate to the [`_data/spring_2018/`](_data/) directory
+	1. Navigate to the [`_data/spring_2019/`](_data/) directory
 	1. Open your text editor, create a file like the one below (you are looking at `floswald.json`), and save as `YOUR_GITHUB_USERNAME.json` in that directory `_data/spring_2018/`:
 
 		```json
