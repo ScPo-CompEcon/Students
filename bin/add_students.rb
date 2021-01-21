@@ -4,7 +4,7 @@ require 'rubygems'
 require 'octokit'
 require 'pp'
 
-TOKEN = ENV['TOKEN'] || raise("Please set TOKEN.")
+TOKEN = ENV['GH_TOKEN'] || raise("Please set TOKEN.")
 ORG = ENV['ORG'] || 'advanced-js'
 REPO = 'students'
 # TODO create team per term?

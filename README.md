@@ -1,6 +1,8 @@
 # Student directory [![Build Status](https://travis-ci.org/ScPo-CompEcon/Students.svg?branch=master)](https://travis-ci.org/ScPo-CompEcon/Students)
 
-# Homework Number 1: Pull requests
+# Homework Number 0: Pull requests
+
+The purpose of this exercise if for you to practice making a pull request. You will have to submit add a simple text file to the right location in a directory structure, and submit your addition as a pull request. If you make no mistake, your submission will be used to build a roster of students for this course.
 
 ## How to do this homework
 
@@ -16,14 +18,15 @@
 1. Make sure you have your github username handy
 1. add a `JSON` file that describes yourself:
 	1. With your editor, navigate to where you cloned this. Example: `cd ~`.
-	1. Navigate to the [`_data/spring_2019/`](_data/) directory
-	1. Open your text editor, create a file like the one below (you are looking at `floswald.json`), and save as `YOUR_GITHUB_USERNAME.json` in that directory `_data/spring_2018/`:
+	1. Navigate to the [`_data/spring_2021/`](_data/) directory
+	1. Open your text editor, create a file like the one below (you are looking at `floswald.json`), and save as `YOUR_GITHUB_USERNAME.json` in that directory `_data/spring_2021/`. If you save it in another location, this will not work.
 
 		```json
 		{
 		  "emoji": "radio",
 		  "introduction": "BBC6music is my favourite radio station",
-		  "computing": "dynamic models of housing, location and labor"
+		  "computing": "dynamic models of housing, location and labor",
+		  "institution": "SciencesPo"
 		}
 		```
 		You should replace with your own 
@@ -31,10 +34,11 @@
 		* `emoji` (choose from [this list](http://www.emoji-cheat-sheet.com/)), 
 		* `introduction`, which should be something very brief about yourself, and 
 		* `computing`, where you should state what kinds of computational problems you are (or think you will be) solving.
+		* `institution`, what your institution is.
 
 		**NOTICE**: take care to write this file *exactly* as it is shown above. One missing comma, and this will not work. 
 
-	1. save this file
+	1. save this file *in the correct location*
 1. Go back to your GUI, or type `git status` on the command line.
 1. In the GUI, select `YOUR_GITHUB_USERNAME.json` to be added to the next commit, or type `git add YOUR_GITHUB_USERNAME.json` on the command line.
 1. write a summary of the change. Like: "added my username". command line `git commit -m 'added my username'`

@@ -32,6 +32,9 @@ def validate_fields(file, data)
   if data['computing'].blank?
     err("#{file} needs a field `computing`.")
   end
+    if data['institution'].blank?
+    err("#{file} needs a field `institution`.")
+  end
 end
 
 
