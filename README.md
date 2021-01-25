@@ -1,4 +1,6 @@
-# Student directory [![Build Status](https://travis-ci.org/ScPo-CompEcon/Students.svg?branch=master)](https://travis-ci.org/ScPo-CompEcon/Students)
+# [Student directory](https://scpo-compecon.github.io/Students/) [![Build Status](https://travis-ci.org/ScPo-CompEcon/Students.svg?branch=master)](https://travis-ci.org/ScPo-CompEcon/Students)
+
+**[check out the students of this course here!](https://scpo-compecon.github.io/Students/)**
 
 # Homework Number 0: Pull requests
 
