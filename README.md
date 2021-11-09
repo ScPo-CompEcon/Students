@@ -8,7 +8,7 @@ The purpose of this exercise if for you to practice making a pull request. You w
 
 ## How to do this homework
 
-1. You can download a GUI to work with git for this homework. I don't recommend Github Desktop, because it does not allow you to easily *stash* changes, which is quite important. Good alternatives are GitKraken, SourceTree and GitTower. You are perfectly fine **without any GUI** as well (i.e. on the command line)
+1. You can download a GUI to work with git for this homework. I recommend Github Desktop. You are perfectly fine **without any GUI** as well (i.e. on the command line)
 1. Fork this repository (click on **fork** top right of this page; this makes a copy of this repo on your github account [that is, *somewhere in the cloud*])
 1. Go to your fork (it takes you there anyway), and clone your fork to your computer (click on **clone or download**)
 	1. Copy the shown URL
